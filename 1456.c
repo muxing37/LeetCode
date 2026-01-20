@@ -16,13 +16,13 @@ int maxVowels(char* s, int k) {
     }
     int max=c;
     for(i=k;i<n;i++){
-        if(abc(s[i-k])!=0){
+        if(abc(s[i-k])!=0) {
             c--;
         }
-        if(abc(s[i])!=0){
+        if(abc(s[i])!=0) {
             c++;
         }
-        if(c>max){
+        if(c>max) {
             max=c;
         }
     }

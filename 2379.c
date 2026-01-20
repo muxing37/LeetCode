@@ -20,6 +20,5 @@ int minimumRecolors(char* blocks, int k) {
             max=c;
         }
     }
-    //printf("%d\n",k-max);
     return k-max;
 }
