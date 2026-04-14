@@ -37,9 +37,11 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
         tA=t;
         tB=headB;
     }
+    
     while(tA!=tB) {
         tA=tA->next;
         tB=tB->next;
     }
+
     return tA;
 }
